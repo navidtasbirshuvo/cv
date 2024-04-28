@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: 10px;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Navid Tasbir Shuvo</h1>
+        <p>Python Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <section>
+            <h2>About Me</h2>
+            <p>I am an undergraduate student of Daffodil Internation University.</p>
+        </section>
+    </div>
+    <div class="container" id="education">
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>undergraduate student in Computer Science  University (running)</li>
+                <li>HSC from Rajuk Uttara Model College</li>
+                <li>SSC from Motijheel Govt Boys High School</li>
+            </ul>
+        </section>
+    </div>
+    <div class="container" id="experience">
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>participated  in Take-off, Unlock the Algorithms, and many online contests</li>
+                <li>Freelance (2024-Present)</li>
+            </ul>
+        </section>
+    </div>
+    <div class="container" id="skills">
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>machine learning</li>
+            </ul>
+        </section>
+    </div>
+    <div class="container" id="contact">
+        <section>
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Contact: navidtasbir@98mail.com | Phone: 123-456-7890</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
